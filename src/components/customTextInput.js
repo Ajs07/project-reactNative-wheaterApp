@@ -24,10 +24,13 @@ const styles = StyleSheet.create({
   input: {
     borderWidth: 2,
     borderColor: '#DDDDDD',
-    padding: 10,
+    padding: 10,borderRadius: 5, // Menambahkan border radius
+    fontSize: 16, // Mengatur ukuran font
   },
   container: {
     marginTop: 20,
+    width: '100%', // Mengatur lebar menjadi penuh
+    alignItems: 'center', // Pusatkan komponen
   },
 })
 

@@ -23,6 +23,8 @@ const WeatherSearch = ({searchWeather}) => {
 const styles = StyleSheet.create({
   buttonWrapper: {
     marginTop: 20,
+    backgroundColor: '#007BFF', // Warna latar belakang tombol
+    borderRadius: 5, // Border radius untuk tombol
   },
 })
 
